@@ -2,14 +2,14 @@
 // @name         Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
 // @version      7
-// @description  try to take over the canvas!
+// @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh
 // @match        https://garlic-bread.reddit.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/klorollerde/pixel/raw/main/overlay.user.js
-// @downloadURL  https://github.com/klorollerde/pixel/raw/main/overlay.user.js
+// @updateURL    https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js
+// @downloadURL  https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js
 // ==/UserScript==
-let url = "https://raw.githubusercontent.com/klorollerde/pixel/main/overlay.png"
+let url = "https://raw.githubusercontent.com/rplacebonjwa/rplace/main/overlay.png"
 let url_de = "https://place.army/overlay_target.png"
 
 if (window.top !== window.self) {
