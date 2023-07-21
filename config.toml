@@ -115,6 +115,6 @@ priority = 10
 [[structure]]
 name = "bonjwa-rad"
 file = "bonjwa/BonjwaRad.png"
-startx = 1187
+startx = 1197
 starty = 358
 priority = 10
