@@ -90,7 +90,7 @@ priority = 2
 
 [[structure]]
 name = "edo-hi"
-file = "bonjwa/edo-hi-border.png"
+file = "bonjwa/edo-hi-border-big.png"
 startx = 266
 starty = 134
 priority = 2
