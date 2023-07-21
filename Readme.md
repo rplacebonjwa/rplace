@@ -1,8 +1,16 @@
-## Einführung neuer Bilder
+## Nutzen der Template Datei
+
+**1. Installieren der Browsererweiterung [Tampermonkey](https://tampermonkey.net)**
+
+**2. Installieren des [Scripts](https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js)**
+
+
+## Hinzufügen neuer Bilder
 
 **1. Bild in bonjwa-Ordner hinzufügen mit Dateiname:** 
-_beispiel.png_ mit transparentem Hintergrund und keinem leeren Rand.\
-Das Bild muss 1:1 das Pixelart sein nur aus den vorgegebenen Farben von Reddit bestehen
+
+_beispiel.png_ mit transparentem Hintergrund und KEINEM leeren Rand.\
+Das Bild muss 1:1 das Pixelart sein und nur aus den vorgegebenen Farben von Reddit bestehend
 
 
 **2. In config.toml neuen Block hinzufügen:** 
@@ -29,5 +37,9 @@ WICHTIG: In der _output.png_ gucken, dass die Bilder richtig platziert wurden un
 
 Mithilfe der Dockerfile kann ein Image/Container erstellt werden, welcher bereits für die Ausführung der Python Skripts konfiguriert ist.
 
-
 **4. Pull Request erstellen und von anderem Dev prüfen lassen** 
+
+## Weitere Infos
+- RAW Dateien im Github werden gecached, es kann also etwas dauern, bis die neue Templatedatei in der Extension angezeigt wird
+- Bei Anpassung der overlay.user.js bitte Versionsnummer hochzählen
+- Regelmäßig auf Updates der Scripts prüfen
