@@ -78,8 +78,15 @@ priority = 2
 name = "HeartDE"
 file = "bonjwa/deheart.png"
 startx = 320
-starty = 130
+starty = 134
 priority = 2
+
+#[[structure]]
+#name = "HeartDEPrinz"
+#file = "bonjwa/deheart.png"
+#startx = 185
+#starty = 134
+#priority = 2
 
 [[structure]]
 name = "touri"
