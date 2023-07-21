@@ -89,8 +89,16 @@ priority = 2
 #priority = 2
 
 [[structure]]
+name = "edo-hi"
+file = "bonjwa/edo-hi.png"
+startx = 267
+starty = 135
+priority = 2
+
+[[structure]]
 name = "touri"
 file = "bonjwa/Touri_AndiDesign_11x14.png"
 startx = 310
 starty = 155
 priority = 10
+
