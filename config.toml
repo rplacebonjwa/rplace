@@ -1,0 +1,89 @@
+ignore_colors = [
+ [0, 0, 0, 0],
+ # [0, 0, 0, 255], # filter all black
+]
+
+# priority: higher number = higher chance of being placed
+# r/placeDE overlay target: https://place.army/overlay_target.png
+
+[versions]
+"browser" = 20
+"python" = 3
+"nodejs" = 1
+
+[priorities]
+"0" = 0
+"1" = 1
+"2" = 5
+"3" = 10
+
+[[structure]]
+name = "flaguk"
+file = "bonjwa/uk_flag_pixelart.png"
+startx = 166
+starty = 170
+priority = 10
+
+[[structure]]
+name = "bonjwa-logo29"
+file = "bonjwa/Bonjwa_Logo_29x29.png"
+startx = 282
+starty = 134
+priority = 10
+
+
+[[structure]]
+name = "bonjwa-matteo-marius"
+file = "bonjwa/Matteo-Marius-reduced.png"
+startx = 213
+starty = 115
+priority = 5
+
+[[structure]]
+name = "prinz"
+file = "bonjwa/prinz.png"
+startx = 166
+starty = 131
+priority = 1
+
+[[structure]]
+name = "bonjwa-peepo2"
+file = "bonjwa/peepo-1px-breiter.png"
+startx = 189
+starty = 132
+priority = 1
+
+[[structure]]
+name = "kekluckeye"
+file = "bonjwa/auge.png"
+startx = 210
+starty = 156
+priority = 1
+
+[[structure]]
+name = "HeartArmenia"
+file = "bonjwa/heart_bonjwa_armenia.png"
+startx = 198
+starty = 154
+priority = 1
+
+[[structure]]
+name = "HeartUK"
+file = "bonjwa/Herz.png"
+startx = 281
+starty = 167
+priority = 2
+
+[[structure]]
+name = "HeartDE"
+file = "bonjwa/deheart.png"
+startx = 320
+starty = 130
+priority = 2
+
+[[structure]]
+name = "touri"
+file = "bonjwa/Touri_AndiDesign_11x14.png"
+startx = 310
+starty = 155
+priority = 10
