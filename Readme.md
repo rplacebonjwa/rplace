@@ -39,6 +39,13 @@ Mithilfe der Dockerfile kann ein Image/Container erstellt werden, welcher bereit
 
 **4. Pull Request erstellen und von anderem Dev prüfen lassen** 
 
+Die von den Python-Skripten generierten Dateien sollten **NICHT** mit in den Pull Request. Diese werden automatisch auf dem Server generiert und führen ansonten zu merge Konflikten. Dies betrifft folgende Dateien:\
+_output.png_\
+_overlay.png_\
+_pixel.json_\
+_pixel_pretty.json_\
+_priority.png_
+
 ## Weitere Infos
 - RAW Dateien im Github werden gecached, es kann also etwas dauern, bis die neue Templatedatei in der Extension angezeigt wird
 - Bei Anpassung der overlay.user.js bitte Versionsnummer hochzählen
