@@ -5,6 +5,7 @@ ignore_colors = [
 
 # priority: higher number = higher chance of being placed
 # r/placeDE overlay target: https://place.army/overlay_target.png
+# r/ukPlace overlay target: http://i.g3v.co.uk/rwuntD.mp4
 
 [versions]
 "browser" = 20
@@ -116,4 +117,11 @@ name = "pawn"
 file = "bonjwa/edo-pawn.png"
 startx = 1222
 starty = 385
+priority = 10
+
+[[structure]]
+name = "bonjwa-rad"
+file = "bonjwa/BonjwaRad.png"
+startx = 1217
+starty = 358
 priority = 10
