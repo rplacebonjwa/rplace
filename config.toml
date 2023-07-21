@@ -114,6 +114,6 @@ priority = 10
 [[structure]]
 name = "pawn"
 file = "bonjwa/edo-pawn.png"
-startx = 1225
-starty = 388
+startx = 1229
+starty = 389
 priority = 10
