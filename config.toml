@@ -5,7 +5,7 @@ ignore_colors = [
 
 # priority: higher number = higher chance of being placed
 # r/placeDE overlay target: https://place.army/overlay_target.png
-# r/ukPlace overlay target: http://i.g3v.co.uk/rwuntD.mp4
+# r/ukPlace overlay target: https://placeuk.g3v.co.uk/template/ukplace
 
 [versions]
 "browser" = 20
