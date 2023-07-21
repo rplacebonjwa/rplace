@@ -41,7 +41,7 @@ priority = 5
 
 [[structure]]
 name = "prinz"
-file = "bonjwa/prinz.png"
+file = "bonjwa/prinz2.png"
 startx = 166
 starty = 131
 priority = 1
