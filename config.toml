@@ -84,6 +84,13 @@ starty = 167
 priority = 2
 
 [[structure]]
+name = "frenchpress"
+file = "bonjwa/frenchpress.png"
+startx = 775
+starty = 159
+priority = 2
+
+[[structure]]
 name = "HeartDE"
 file = "bonjwa/deheart.png"
 startx = 820
