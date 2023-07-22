@@ -143,6 +143,13 @@ startx = 269
 starty = 132
 priority = 2
 
+[[structure]]
+name = "schagges"
+file = "bonjwa/schagges.png"
+startx = 289
+starty = 132
+priority = 2
+
 # endregion
 
 # region misc
