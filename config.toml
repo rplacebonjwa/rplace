@@ -24,84 +24,84 @@ ignore_colors = [
 name = "flaguk"
 file = "bonjwa/uk_flag_pixelart.png"
 startx = 666
-starty = 170
+starty = 670
 priority = 10
 
 [[structure]]
 name = "bonjwa-logo29"
 file = "bonjwa/Bonjwa_Logo_29x29.png"
 startx = 782
-starty = 134
+starty = 634
 priority = 10
 
 [[structure]]
 name = "bonjwa-matteo-marius"
 file = "bonjwa/Matteo-Marius-NeuerAlsNeu.png"
 startx = 703
-starty = 115
+starty = 615
 priority = 5
 
 [[structure]]
 name = "prinz"
 file = "bonjwa/prinz3.png"
 startx = 666
-starty = 131
+starty = 631
 priority = 1
 
 [[structure]]
 name = "bonjwa-peepo2"
 file = "bonjwa/peepo-1px-breiter.png"
 startx = 688
-starty = 132
+starty = 632
 priority = 1
 
 [[structure]]
 name = "kekluckeye"
 file = "bonjwa/auge.png"
 startx = 710
-starty = 156
+starty = 656
 priority = 1
 
 [[structure]]
 name = "FlagArmenia"
 file = "bonjwa/armenia_flag.png"
 startx = 666
-starty = 157
+starty = 657
 priority = 1
 
 [[structure]]
 name = "HeartArmenia"
 file = "bonjwa/heart_bonjwa_armenia.png"
 startx = 698
-starty = 154
+starty = 654
 priority = 1
 
 [[structure]]
 name = "HeartUK"
 file = "bonjwa/Herz.png"
 startx = 785
-starty = 167
+starty = 667
 priority = 2
 
 [[structure]]
 name = "frenchpress"
 file = "bonjwa/frenchpress.png"
 startx = 775
-starty = 159
+starty = 659
 priority = 2
 
 [[structure]]
 name = "HeartDE"
 file = "bonjwa/deheart.png"
 startx = 820
-starty = 134
+starty = 634
 priority = 2
 
 [[structure]]
 name = "touri"
 file = "bonjwa/Touri_AndiDesign_11x14_Twitter_Rosa.png"
 startx = 810
-starty = 155
+starty = 655
 priority = 10
 
 # [[structure]]
@@ -119,77 +119,77 @@ priority = 10
 name = "greenbg"
 file = "bonjwa/greenbg.png"
 startx = 188
-starty = 133
+starty = 633
 priority = 2
 
 [[structure]]
 name = "rightuppercornergreenbg"
 file = "bonjwa/greenbg_right_upper_corner.png"
 startx = 253
-starty = 133
+starty = 633
 priority = 2
 
 [[structure]]
 name = "helm"
 file = "bonjwa/helm.png"
 startx = 192
-starty = 158
+starty = 658
 priority = 2
 
 [[structure]]
 name = "bonjwa-rad"
 file = "bonjwa/BonjwaRad.png"
 startx = 273
-starty = 134
+starty = 634
 priority = 10
 
 [[structure]]
 name = "gans"
 file = "bonjwa/Gans_gespiegelt.png"
 startx = 215
-starty = 133
+starty = 633
 priority = 3
 
 [[structure]]
 name = "phunk2"
 file = "bonjwa/phunkmopsfrosch.png"
 startx = 205
-starty = 152
+starty = 652
 priority = 2
 
 [[structure]]
 name = "pyramid"
 file = "bonjwa/pyramid.png"
 startx = 193
-starty = 133
+starty = 633
 priority = 3
 
 [[structure]]
 name = "sukiandfriends"
 file = "bonjwa/sukiandfriends.png"
 startx = 216
-starty = 130
+starty = 630
 priority = 2
 
 [[structure]]
 name = "leaf"
 file = "bonjwa/acleaf.png"
 startx = 269
-starty = 132
+starty = 632
 priority = 2
 
 [[structure]]
 name = "schagges"
 file = "bonjwa/schagges.png"
 startx = 289
-starty = 134
+starty = 634
 priority = 2
 
 [[structure]]
 name = "sukibird"
 file = "bonjwa/bird.png"
 startx = 243
-starty = 197
+starty = 697
 priority = 2
 
 # endregion
@@ -200,21 +200,21 @@ priority = 2
 name = "free-iran-flagge"
 file = "bonjwa/Free_Iran_Flagge.png"
 startx = 1555
-starty = 381
+starty = 881
 priority = 1
 
 [[structure]]
 name = "suun"
 file = "bonjwa/suun2.png"
 startx = 237
-starty = 396
+starty = 896
 priority = 1
 
 [[structure]]
 name = "pietsmiet"
 file = "bonjwa/pietsmiet.png"
 startx = 1357
-starty = 132
+starty = 632
 priority = 1
 
 # endregion

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      12
+// @version      13
 // @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh
 // @match        https://garlic-bread.reddit.com/*
@@ -20,7 +20,7 @@ function addOverlayImage(url) {
       const canvasContainer = document.querySelector("garlic-bread-embed").shadowRoot.querySelector("div.layout").querySelector("garlic-bread-canvas").shadowRoot.querySelector("div.container");
       overlayImage = document.createElement("img");
       overlayImage.src = url + "?" + Date.now()
-      overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;pointerEvents: 'none';`;
+      overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1500px;pointerEvents: 'none';`;
       canvasContainer.appendChild(overlayImage);
     }, false);
   }
