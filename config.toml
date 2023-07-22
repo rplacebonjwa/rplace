@@ -18,6 +18,8 @@ ignore_colors = [
 "2" = 5
 "3" = 10
 
+# region right side
+
 [[structure]]
 name = "flaguk"
 file = "bonjwa/uk_flag_pixelart.png"
@@ -26,34 +28,11 @@ starty = 170
 priority = 10
 
 [[structure]]
-name = "helm"
-file = "bonjwa/helm.png"
-startx = 215
-starty = 172
-priority = 2
-
-[[structure]]
-name = "hugo"
-file = "bonjwa/hugo.png"
-startx = 301
-starty = 172
-priority = 3
-
-[[structure]]
-name = "free-iran-flagge"
-file = "bonjwa/Free_Iran_Flagge.png"
-startx = 1555
-starty = 381
-priority = 1
-
-
-[[structure]]
 name = "bonjwa-logo29"
 file = "bonjwa/Bonjwa_Logo_29x29.png"
 startx = 782
 starty = 134
 priority = 10
-
 
 [[structure]]
 name = "bonjwa-matteo-marius"
@@ -111,13 +90,6 @@ startx = 820
 starty = 134
 priority = 2
 
-#[[structure]]
-#name = "HeartDEPrinz"
-#file = "bonjwa/deheart.png"
-#startx = 685
-#starty = 134
-#priority = 2
-
 [[structure]]
 name = "touri"
 file = "bonjwa/Touri_AndiDesign_11x14_Twitter_Rosa.png"
@@ -125,10 +97,28 @@ startx = 810
 starty = 155
 priority = 10
 
+# endregion
+
+# region left side
+
+[[structure]]
+name = "helm"
+file = "bonjwa/helm.png"
+startx = 215
+starty = 172
+priority = 2
+
+[[structure]]
+name = "hugo"
+file = "bonjwa/hugo.png"
+startx = 301
+starty = 172
+priority = 3
+
 [[structure]]
 name = "bonjwa-rad"
 file = "bonjwa/BonjwaRad.png"
-startx = 282
+startx = 273
 starty = 134
 priority = 10
 
@@ -145,3 +135,16 @@ file = "bonjwa/sukiandfriends.png"
 startx = 227
 starty = 130
 priority = 2
+
+# endregion
+
+# region misc
+
+[[structure]]
+name = "free-iran-flagge"
+file = "bonjwa/Free_Iran_Flagge.png"
+startx = 1555
+starty = 381
+priority = 1
+
+# endregion
