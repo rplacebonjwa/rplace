@@ -4,6 +4,7 @@ import json
 import toml
 import os
 from PIL import Image
+import time
 
 COLOR_MAPPINGS = {
 	'#6D001A': 0,
@@ -118,7 +119,20 @@ if __name__ == "__main__":
         name = struct["name"]
         print(f"Adding file {file} for structure {name}")
         data["structures"][name] = create_structure(file, priority_file, struct["startx"], struct["starty"], struct["priority"], ignore_colors, used_pixels)
-    
+
+    #animated structure
+    for struct in reversed(config.get("animated_structure", [])):
+        current_time = int(time.time())
+        minutes_per_frame = struct["minutes_per_frame"]
+        total_frames = struct["total_frames"]
+        file_number = (current_time // (minutes_per_frame * 60)) % total_frames
+        file = f"{struct['folder']}/{file_number}.png"
+        priority_file = struct.get("priority_file", None)
+        name = struct["name"]
+        print(f"Adding file {file} for structure {name}")
+        data["structures"][name] = create_structure(file, priority_file, struct["startx"], struct["starty"],
+                                                    struct["priority"], ignore_colors, used_pixels)
+
     with open(args.output, "w") as f:
         f.write(json.dumps(data, separators=(',', ':')))
     with open(os.path.splitext(args.output)[0]+"_pretty.json", "w") as f:

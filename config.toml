@@ -20,6 +20,15 @@ ignore_colors = [
 
 # region right side
 
+[[animated_structure]]
+name = "bonjwa-rad"
+folder = "bonjwa/AnimatedRad"
+startx = 273
+starty = 134
+priority = 10
+minutes_per_frame = 20
+total_frames = 360
+
 [[structure]]
 name = "flaguk"
 file = "bonjwa/uk_flag_pixelart.png"
@@ -36,8 +45,8 @@ priority = 10
 
 [[structure]]
 name = "bonjwa-matteo-marius"
-file = "bonjwa/Matteo-Marius-NeuerAlsNeu.png"
-startx = 703
+file = "bonjwa/Matteo-Marius-arm-dick-höher-v3.png"
+startx = 713
 starty = 115
 priority = 5
 
@@ -116,13 +125,6 @@ starty = 172
 priority = 3
 
 [[structure]]
-name = "bonjwa-rad"
-file = "bonjwa/BonjwaRad.png"
-startx = 273
-starty = 134
-priority = 10
-
-[[structure]]
 name = "gans"
 file = "bonjwa/Gans.png"
 startx = 215
@@ -134,13 +136,6 @@ name = "sukiandfriends"
 file = "bonjwa/sukiandfriends.png"
 startx = 227
 starty = 130
-priority = 2
-
-[[structure]]
-name = "leaf"
-file = "bonjwa/acleaf.png"
-startx = 269
-starty = 132
 priority = 2
 
 # endregion
