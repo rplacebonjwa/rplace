@@ -144,5 +144,5 @@ priority = 1
 name = "gans"
 file = "bonjwa/Gans.png"
 startx = 215
-starty = 144
+starty = 145
 priority = 3
