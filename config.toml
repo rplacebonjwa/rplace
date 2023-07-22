@@ -203,4 +203,11 @@ startx = 237
 starty = 396
 priority = 1
 
+[[structure]]
+name = "pietsmiet"
+file = "bonjwa/pietsmiet.png"
+startx = 1357
+starty = 132
+priority = 1
+
 # endregion
