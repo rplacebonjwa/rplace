@@ -119,13 +119,6 @@ starty = 155
 priority = 10
 
 [[structure]]
-name = "pawn"
-file = "bonjwa/edo-pawn.png"
-startx = 1722
-starty = 385
-priority = 10
-
-[[structure]]
 name = "bonjwa-rad"
 file = "bonjwa/BonjwaRad.png"
 startx = 282
