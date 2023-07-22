@@ -158,10 +158,10 @@ starty = 652
 priority = 2
 
 [[structure]]
-name = "pyramid"
-file = "bonjwa/pyramid.png"
+name = "pyramid2"
+file = "bonjwa/pyramidenhead.png"
 startx = 193
-starty = 633
+starty = 634
 priority = 3
 
 [[structure]]
