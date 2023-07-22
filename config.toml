@@ -164,8 +164,8 @@ priority = 1
 [[structure]]
 name = "suun"
 file = "bonjwa/suun.png"
-startx = 133
-starty = 965
+startx = 179
+starty = 903
 priority = 1
 
 # endregion
