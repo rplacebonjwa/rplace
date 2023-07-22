@@ -102,6 +102,13 @@ priority = 10
 # region left side
 
 [[structure]]
+name = "rightuppercornergreenbg"
+file = "bonjwa/greenbg_right_upper_corner.png"
+startx = 252
+starty = 133
+priority = 2
+
+[[structure]]
 name = "helm"
 file = "bonjwa/helm.png"
 startx = 215
