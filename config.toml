@@ -102,6 +102,13 @@ priority = 10
 # region left side
 
 [[structure]]
+name = "greenbg"
+file = "bonjwa/greenbg.png"
+startx = 188
+starty = 133
+priority = 2
+
+[[structure]]
 name = "rightuppercornergreenbg"
 file = "bonjwa/greenbg_right_upper_corner.png"
 startx = 253
@@ -113,6 +120,13 @@ name = "helm"
 file = "bonjwa/helm.png"
 startx = 209
 starty = 162
+priority = 2
+
+[[structure]]
+name = "phunk"
+file = "bonjwa/phunkmitmops.png"
+startx = 214
+starty = 157
 priority = 2
 
 #[[structure]]
@@ -155,13 +169,6 @@ name = "leaf"
 file = "bonjwa/acleaf.png"
 startx = 269
 starty = 132
-priority = 2
-
-[[structure]]
-name = "phunk"
-file = "bonjwa/phunkmitmops.png"
-startx = 220
-starty = 157
 priority = 2
 
 [[structure]]
