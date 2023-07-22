@@ -101,19 +101,19 @@ priority = 10
 
 # region left side
 
-#[[structure]]
-#name = "greenbg"
-#file = "bonjwa/greenbg.png"
-#startx = 188
-#starty = 133
-#priority = 2
+[[structure]]
+name = "greenbg"
+file = "bonjwa/greenbg.png"
+startx = 188
+starty = 133
+priority = 2
 
-#[[structure]]
-#name = "rightuppercornergreenbg"
-#file = "bonjwa/greenbg_right_upper_corner.png"
-#startx = 253
-#starty = 133
-#priority = 2
+[[structure]]
+name = "rightuppercornergreenbg"
+file = "bonjwa/greenbg_right_upper_corner.png"
+startx = 253
+starty = 133
+priority = 2
 
 [[structure]]
 name = "helm"
