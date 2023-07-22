@@ -125,3 +125,10 @@ file = "bonjwa/BonjwaRad.png"
 startx = 1685
 starty = 358
 priority = 10
+
+[[structure]]
+name = "greenlayer"
+file = "bonjwa/greenlayer.png"
+startx = 250
+starty = 132
+priority = 2
