@@ -71,6 +71,13 @@ starty = 156
 priority = 1
 
 [[structure]]
+name = "FlagArmenia"
+file = "bonjwa/armenia_flag.png"
+startx = 166
+starty = 157
+priority = 1
+
+[[structure]]
 name = "HeartArmenia"
 file = "bonjwa/heart_bonjwa_armenia.png"
 startx = 198
