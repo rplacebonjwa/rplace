@@ -23,10 +23,11 @@ ignore_colors = [
 [[animated_structure]]
 name = "bonjwa-rad"
 folder = "bonjwa/AnimatedRad"
+startx = 50
 startx = 273
 starty = 134
 priority = 10
-minutes_per_frame = 20
+minutes_per_frame = 30
 total_frames = 360
 
 [[structure]]
@@ -88,7 +89,7 @@ priority = 1
 [[structure]]
 name = "HeartUK"
 file = "bonjwa/Herz.png"
-startx = 781
+startx = 785
 starty = 167
 priority = 2
 
@@ -111,30 +112,58 @@ priority = 10
 # region left side
 
 [[structure]]
-name = "helm"
-file = "bonjwa/helm.png"
-startx = 215
-starty = 172
+name = "greenbg"
+file = "bonjwa/greenbg.png"
+startx = 188
+starty = 133
 priority = 2
 
 [[structure]]
-name = "hugo"
-file = "bonjwa/hugo.png"
-startx = 301
-starty = 172
-priority = 3
+name = "rightuppercornergreenbg"
+file = "bonjwa/greenbg_right_upper_corner.png"
+startx = 253
+starty = 133
+priority = 2
+
+[[structure]]
+name = "helm"
+file = "bonjwa/helm.png"
+startx = 192
+starty = 158
+priority = 2
+
+[[structure]]
+name = "bonjwa-rad"
+file = "bonjwa/BonjwaRad.png"
+startx = 273
+starty = 134
+priority = 10
 
 [[structure]]
 name = "gans"
-file = "bonjwa/Gans.png"
+file = "bonjwa/Gans_gespiegelt.png"
 startx = 215
-starty = 145
+starty = 133
+priority = 3
+
+[[structure]]
+name = "phunk2"
+file = "bonjwa/phunkmopsfrosch.png"
+startx = 205
+starty = 152
+priority = 2
+
+[[structure]]
+name = "pyramid"
+file = "bonjwa/pyramid.png"
+startx = 193
+starty = 133
 priority = 3
 
 [[structure]]
 name = "sukiandfriends"
 file = "bonjwa/sukiandfriends.png"
-startx = 227
+startx = 216
 starty = 130
 priority = 2
 
@@ -143,6 +172,20 @@ name = "leaf"
 file = "bonjwa/acleaf.png"
 startx = 269
 starty = 132
+priority = 2
+
+[[structure]]
+name = "schagges"
+file = "bonjwa/schagges.png"
+startx = 289
+starty = 134
+priority = 2
+
+[[structure]]
+name = "sukibird"
+file = "bonjwa/bird.png"
+startx = 243
+starty = 197
 priority = 2
 
 # endregion
@@ -154,6 +197,20 @@ name = "free-iran-flagge"
 file = "bonjwa/Free_Iran_Flagge.png"
 startx = 1555
 starty = 381
+priority = 1
+
+[[structure]]
+name = "suun"
+file = "bonjwa/suun2.png"
+startx = 237
+starty = 396
+priority = 1
+
+[[structure]]
+name = "pietsmiet"
+file = "bonjwa/pietsmiet.png"
+startx = 1357
+starty = 132
 priority = 1
 
 # endregion
