@@ -136,6 +136,13 @@ startx = 227
 starty = 130
 priority = 2
 
+[[structure]]
+name = "leaf"
+file = "bonjwa/acleaf.png"
+startx = 269
+starty = 132
+priority = 2
+
 # endregion
 
 # region misc
