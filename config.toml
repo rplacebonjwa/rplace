@@ -154,4 +154,11 @@ startx = 1555
 starty = 381
 priority = 1
 
+[[structure]]
+name = "suun"
+file = "bonjwa/suun.png"
+startx = 133
+starty = 965
+priority = 1
+
 # endregion
