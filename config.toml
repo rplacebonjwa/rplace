@@ -19,13 +19,6 @@ ignore_colors = [
 "3" = 10
 
 [[structure]]
-name = "greenlayer"
-file = "bonjwa/greenlayer.png"
-startx = 250
-starty = 132
-priority = 2
-
-[[structure]]
 name = "flaguk"
 file = "bonjwa/uk_flag_pixelart.png"
 startx = 666
@@ -132,3 +125,10 @@ file = "bonjwa/BonjwaRad.png"
 startx = 282
 starty = 134
 priority = 10
+
+[[structure]]
+name = "dhalus_profilbild"
+file = "bonjwa/Dhalus_Profilbild.png"
+startx = 301
+starty = 133
+priority = 1
