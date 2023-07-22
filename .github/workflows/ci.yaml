@@ -9,7 +9,7 @@ on:
       - 'bonjwa/**'
       - 'config.toml'
     branches:
-      - not-main
+      - main
 
 permissions:
   contents: write
