@@ -136,13 +136,6 @@ startx = 215
 starty = 133
 priority = 3
 
-#[[structure]]
-#name = "phunk"
-#file = "bonjwa/phunkmitmops.png"
-#startx = 214
-#starty = 157
-#priority = 2
-
 [[structure]]
 name = "phunk2"
 file = "bonjwa/phunkmopsfrosch.png"
