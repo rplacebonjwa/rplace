@@ -128,7 +128,7 @@ priority = 10
 
 [[structure]]
 name = "dhalus_profilbild"
-file = "bonjwa/Dhalus_Profilbild.png"
+file = "bonjwa/Dhalus_Clownsnase.png"
 startx = 301
 starty = 133
 priority = 1
