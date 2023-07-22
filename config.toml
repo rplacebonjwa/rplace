@@ -108,12 +108,12 @@ startx = 215
 starty = 172
 priority = 2
 
-[[structure]]
-name = "hugo"
-file = "bonjwa/hugo.png"
-startx = 301
-starty = 172
-priority = 3
+#[[structure]]
+#name = "hugo"
+#file = "bonjwa/hugo.png"
+#startx = 301
+#starty = 172
+#priority = 3
 
 [[structure]]
 name = "bonjwa-rad"
