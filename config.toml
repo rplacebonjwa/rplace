@@ -131,9 +131,9 @@ priority = 10
 
 [[structure]]
 name = "gans"
-file = "bonjwa/Gans.png"
+file = "bonjwa/Gans_gespiegelt.png"
 startx = 215
-starty = 145
+starty = 133
 priority = 3
 
 [[structure]]
@@ -160,8 +160,8 @@ priority = 2
 [[structure]]
 name = "phunk"
 file = "bonjwa/phunk.png"
-startx = 302
-starty = 135
+startx = 220
+starty = 157
 priority = 2
 
 [[structure]]
