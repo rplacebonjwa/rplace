@@ -139,3 +139,10 @@ file = "bonjwa/torro.png"
 startx = 248
 starty = 129
 priority = 1
+
+[[structure]]
+name = "gans"
+file = "bonjwa/Gans.png"
+startx = 215
+starty = 144
+priority = 3
