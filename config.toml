@@ -33,6 +33,13 @@ starty = 172
 priority = 2
 
 [[structure]]
+name = "hugo"
+file = "bonjwa/hugo.png"
+startx = 301
+starty = 172
+priority = 3
+
+[[structure]]
 name = "free-iran-flagge"
 file = "bonjwa/Free_Iran_Flagge.png"
 startx = 1555
