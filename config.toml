@@ -118,16 +118,9 @@ priority = 2
 [[structure]]
 name = "helm"
 file = "bonjwa/helm.png"
-startx = 204
-starty = 162
+startx = 192
+starty = 158
 priority = 2
-
-#[[structure]]
-#name = "hugo"
-#file = "bonjwa/hugo.png"
-#startx = 301
-#starty = 172
-#priority = 3
 
 [[structure]]
 name = "bonjwa-rad"
@@ -143,18 +136,25 @@ startx = 215
 starty = 133
 priority = 3
 
+#[[structure]]
+#name = "phunk"
+#file = "bonjwa/phunkmitmops.png"
+#startx = 214
+#starty = 157
+#priority = 2
+
 [[structure]]
-name = "phunk"
-file = "bonjwa/phunkmitmops.png"
-startx = 214
-starty = 157
+name = "phunk2"
+file = "bonjwa/phunkmopsfrosch.png"
+startx = 205
+starty = 152
 priority = 2
 
 [[structure]]
 name = "pyramid"
 file = "bonjwa/pyramid.png"
 startx = 193
-starty = 140
+starty = 133
 priority = 3
 
 [[structure]]
