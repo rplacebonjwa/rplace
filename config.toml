@@ -178,6 +178,13 @@ startx = 289
 starty = 134
 priority = 2
 
+[[structure]]
+name = "sukibird"
+file = "bonjwa/bird.png"
+startx = 243
+starty = 197
+priority = 2
+
 # endregion
 
 # region misc
