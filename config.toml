@@ -21,7 +21,7 @@ ignore_colors = [
 [[structure]]
 name = "flaguk"
 file = "bonjwa/uk_flag_pixelart.png"
-startx = 166
+startx = 666
 starty = 170
 priority = 10
 
@@ -29,7 +29,7 @@ priority = 10
 [[structure]]
 name = "free-iran-flagge"
 file = "bonjwa/Free_Iran_Flagge.png"
-startx = 1055
+startx = 1555
 starty = 381
 priority = 1
 
@@ -37,7 +37,7 @@ priority = 1
 [[structure]]
 name = "bonjwa-logo29"
 file = "bonjwa/Bonjwa_Logo_29x29.png"
-startx = 282
+startx = 782
 starty = 134
 priority = 10
 
@@ -45,83 +45,83 @@ priority = 10
 [[structure]]
 name = "bonjwa-matteo-marius"
 file = "bonjwa/Matteo-Marius-arm-dick-höher-v3.png"
-startx = 213
+startx = 713
 starty = 115
 priority = 5
 
 [[structure]]
 name = "prinz"
 file = "bonjwa/prinz3.png"
-startx = 166
+startx = 666
 starty = 131
 priority = 1
 
 [[structure]]
 name = "bonjwa-peepo2"
 file = "bonjwa/peepo-1px-breiter.png"
-startx = 188
+startx = 688
 starty = 132
 priority = 1
 
 [[structure]]
 name = "kekluckeye"
 file = "bonjwa/auge.png"
-startx = 210
+startx = 710
 starty = 156
 priority = 1
 
 [[structure]]
 name = "FlagArmenia"
 file = "bonjwa/armenia_flag.png"
-startx = 166
+startx = 666
 starty = 157
 priority = 1
 
 [[structure]]
 name = "HeartArmenia"
 file = "bonjwa/heart_bonjwa_armenia.png"
-startx = 198
+startx = 698
 starty = 154
 priority = 1
 
 [[structure]]
 name = "HeartUK"
 file = "bonjwa/Herz.png"
-startx = 281
+startx = 781
 starty = 167
 priority = 2
 
 [[structure]]
 name = "HeartDE"
 file = "bonjwa/deheart.png"
-startx = 320
+startx = 820
 starty = 134
 priority = 2
 
 #[[structure]]
 #name = "HeartDEPrinz"
 #file = "bonjwa/deheart.png"
-#startx = 185
+#startx = 685
 #starty = 134
 #priority = 2
 
 [[structure]]
 name = "touri"
 file = "bonjwa/Touri_AndiDesign_11x14.png"
-startx = 310
+startx = 810
 starty = 155
 priority = 10
 
 [[structure]]
 name = "pawn"
 file = "bonjwa/edo-pawn.png"
-startx = 1222
+startx = 1722
 starty = 385
 priority = 10
 
 [[structure]]
 name = "bonjwa-rad"
 file = "bonjwa/BonjwaRad.png"
-startx = 1185
+startx = 1685
 starty = 358
 priority = 10
