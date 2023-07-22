@@ -97,6 +97,13 @@ startx = 810
 starty = 155
 priority = 10
 
+# [[structure]]
+# name = "FroschHut"
+# file = "bonjwa/frosch_hut.png"
+# startx = 809
+# starty = 144
+# priority = 2
+
 # endregion
 
 # region left side
