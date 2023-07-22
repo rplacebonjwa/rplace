@@ -132,3 +132,10 @@ file = "bonjwa/Dhalus_Profilbild.png"
 startx = 301
 starty = 133
 priority = 1
+
+[[structure]]
+name = "torro"
+file = "bonjwa/torro.png"
+startx = 248
+starty = 129
+priority = 1
