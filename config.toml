@@ -25,6 +25,12 @@ startx = 666
 starty = 170
 priority = 10
 
+[[structure]]
+name = "helm"
+file = "bonjwa/helm.png"
+startx = 215
+starty = 172
+priority = 2
 
 [[structure]]
 name = "free-iran-flagge"
