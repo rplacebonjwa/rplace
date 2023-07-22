@@ -104,7 +104,7 @@ priority = 10
 [[structure]]
 name = "rightuppercornergreenbg"
 file = "bonjwa/greenbg_right_upper_corner.png"
-startx = 252
+startx = 253
 starty = 133
 priority = 2
 
