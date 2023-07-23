@@ -99,10 +99,10 @@ starty = 659
 priority = 2
 
 [[structure]]
-name = "zombey"
-file = "bonjwa/zombie.png"
+name = "HeartDE"
+file = "bonjwa/deheart.png"
 startx = 820
-starty = 632
+starty = 634
 priority = 2
 
 [[structure]]
