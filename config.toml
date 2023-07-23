@@ -200,6 +200,13 @@ startx = 243
 starty = 697
 priority = 2
 
+[[structure]]
+name = "cutebird"
+file = "bonjwa/cutebird.png"
+startx = 319
+starty = 638
+priority = 2
+
 # endregion
 
 # region misc
