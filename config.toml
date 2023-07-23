@@ -107,9 +107,9 @@ priority = 2
 
 [[structure]]
 name = "touri"
-file = "bonjwa/Touri_AndiDesign_11x14_Twitter_Rosa.png"
+file = "bonjwa/touri.png"
 startx = 810
-starty = 655
+starty = 654
 priority = 10
 
 # [[structure]]
