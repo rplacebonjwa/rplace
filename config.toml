@@ -123,12 +123,12 @@ priority = 10
 
 # region süd süd west
 
-[[structure]]
-name = "erweiterung_süd"
-file = "bonjwa/erweiterung_süd.png"
-startx = 113
-starty = 1953
-priority = 1
+#[[structure]]
+#name = "erweiterung_süd"
+#file = "bonjwa/erweiterung_süd.png"
+#startx = 113
+#starty = 1953
+#priority = 1
 
 [[structure]]
 name = "dragonball"
