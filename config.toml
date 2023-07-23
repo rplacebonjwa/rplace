@@ -130,12 +130,7 @@ startx = 113
 starty = 1953
 priority = 1
 
-[[structure]]
-name = "matteo_150breit"
-file = "bonjwa/deprecated/Matteo_150Breit.png"
-startx = 117
-starty = 1957
-priority = 1
+
 
 #[[structure]]
 #name = "dragonball"
@@ -150,6 +145,13 @@ priority = 1
 #startx = 224
 #starty = 1952
 #priority = 2
+
+[[structure]]
+name = "matteoballs"
+file = "bonjwa/matteoballs.png"
+startx = 117
+starty = 1953
+priority = 1
 
 # ende region süd süd west
 
