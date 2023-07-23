@@ -159,6 +159,13 @@ starty = 633
 priority = 3
 
 [[structure]]
+name = "rb"
+file = "bonjwa/rbbean.png"
+startx = 222
+starty = 633
+priority = 3
+
+[[structure]]
 name = "phunk2"
 file = "bonjwa/phunkmopsfrosch.png"
 startx = 205
