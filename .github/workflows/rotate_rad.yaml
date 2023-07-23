@@ -22,7 +22,7 @@ jobs:
       run: python -m pip install Pillow
 
     - name: Run Python Script
-      run: python main.py
+      run: python scripts/rotate_rad.py
 
     - name: Commit files if changed
       run: |
