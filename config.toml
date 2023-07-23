@@ -152,6 +152,13 @@ starty = 634
 priority = 10
 
 [[structure]]
+name = "fuchs"
+file = "bonjwa/fuchs.png"
+startx = 208
+starty = 643
+priority = 1
+
+[[structure]]
 name = "gans"
 file = "bonjwa/Gans_gespiegelt.png"
 startx = 215
@@ -234,6 +241,8 @@ file = "bonjwa/shushucat.png"
 startx = 276
 starty = 728
 priority = 2
+
+
 
 # endregion
 
