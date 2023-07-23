@@ -104,15 +104,21 @@ if __name__ == "__main__":
     with open(args.config, "r") as i:
         with open("config.new.toml", "a") as o:
             Lines = i.readlines()
+            change = True # just once
             for line in Lines:
-                if (line.startswith("[priorities]")):
+                if (not change and
+                    line.startswith("# negative of pixel")):
+                    change = False
+                if (change and
+                    line.startswith("[priorities]")):
                     o.write("# negative of pixel in left top corner\n")
                     o.write('[offsets]\n')
                     o.write('"x" = 1000\n')
                     o.write('"y" = 1000\n')
                     o.write('\n')
                 nameValue = line.split('=')
-                if (len(nameValue) == 2 and 
+                if (change and
+                    len(nameValue) == 2 and 
                     (nameValue[0].strip() == "startx" or nameValue[0].strip() == "starty")):
                     line = nameValue[0] + "= " + str(int(nameValue[1]) - 1000) + "\n"
                 o.write(line)
