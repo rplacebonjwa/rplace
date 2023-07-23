@@ -153,8 +153,8 @@ priority = 1
 
 [[structure]]
 name = "trill"
-file = "bonjwa/trill_gedreht.png"
-startx = 119
+file = "bonjwa/trill_gedreht2.png"
+startx = 138
 starty = 1954
 priority = 2
 
