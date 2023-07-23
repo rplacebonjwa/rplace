@@ -253,7 +253,7 @@ priority = 2
 name = "tomate"
 file = "bonjwa/tomate.png"
 startx = 320
-starty = 639
+starty = 635
 priority = 2
 
 # endregion
