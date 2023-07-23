@@ -50,7 +50,7 @@ def get_piece_color(index):
 
 if __name__ == "__main__":
     current_minute = int(time.strftime("%M"))
-    rotate_degrees = 36 * (current_minute // 10)
+    rotate_degrees = 30 * (current_minute // 10)
 
     print(f"creating rad at minute {current_minute} with {rotate_degrees} rotation degrees")
 
