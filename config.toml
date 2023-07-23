@@ -145,6 +145,13 @@ starty = 1954
 priority = 2
 
 [[structure]]
+name = "pokeball"
+file = "bonjwa/poke52.png"
+startx = 141
+starty = 1964
+priority = 2
+
+[[structure]]
 name = "matteoballs"
 file = "bonjwa/matteoballs.png"
 startx = 117
