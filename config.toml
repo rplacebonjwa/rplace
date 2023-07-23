@@ -126,8 +126,8 @@ priority = 10
 [[structure]]
 name = "erweiterung_süd"
 file = "bonjwa/erweiterung_süd.png"
-startx = 114
-starty = 1952
+startx = 113
+starty = 1953
 priority = 1
 
 [[structure]]
