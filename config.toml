@@ -130,20 +130,6 @@ startx = 113
 starty = 1953
 priority = 1
 
-[[structure]]
-name = "portal_orange"
-file = "bonjwa/portal_orange.png"
-startx = 107
-starty = 1956
-priority = 1
-
-[[structure]]
-name = "portal_blau"
-file = "bonjwa/portal_blau.png"
-startx = 255
-starty = 1956
-priority = 1
-
 #[[structure]]
 #name = "dragonball"
 #file = "bonjwa/db2.png"
@@ -162,7 +148,7 @@ priority = 2
 name = "matteoballs"
 file = "bonjwa/matteoballs.png"
 startx = 117
-starty = 1953
+starty = 1954
 priority = 1
 
 # ende region süd süd west
