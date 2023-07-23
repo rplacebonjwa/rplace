@@ -137,6 +137,13 @@ startx = 117
 starty = 1957
 priority = 1
 
+#[[structure]]
+#name = "dragonball"
+#file = "bonjwa/db2.png"
+#startx = 117
+#starty = 1957
+#priority = 1
+
 # ende region süd süd west
 
 
