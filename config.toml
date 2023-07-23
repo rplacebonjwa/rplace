@@ -201,6 +201,13 @@ starty = 630
 priority = 1
 
 [[structure]]
+name = "prideHerz"
+file = "bonjwa/pride_herz.png"
+startx = 285
+starty = 632
+priority = 2
+
+[[structure]]
 name = "cutebird"
 file = "bonjwa/cutebird.png"
 startx = 302
