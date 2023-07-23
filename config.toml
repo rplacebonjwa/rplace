@@ -95,7 +95,7 @@ priority = 2
 name = "frenchpress"
 file = "bonjwa/frenchpress.png"
 startx = 775
-starty = 659
+starty = 656
 priority = 2
 
 [[structure]]
