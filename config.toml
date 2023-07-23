@@ -152,6 +152,13 @@ starty = 1964
 priority = 2
 
 [[structure]]
+name = "devVogel"
+file = "bonjwa/dev_vogel.png"
+startx = 212
+starty = 1963
+priority = 2
+
+[[structure]]
 name = "matteoballs"
 file = "bonjwa/matteoballs.png"
 startx = 117
