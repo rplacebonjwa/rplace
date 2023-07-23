@@ -253,4 +253,11 @@ startx = 1307
 starty = 325
 priority = 1
 
+[[structure]]
+name = "staiydsklogo"
+file = "bonjwa/dsklogo.png"
+startx = 1355
+starty = 371
+priority = 1
+
 # endregion
