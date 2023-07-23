@@ -180,6 +180,13 @@ starty = 687
 priority = 3
 
 [[structure]]
+name = "sukiandfriends-blumen"
+file = "bonjwa/sukiandfiends_blumenDeko.png"
+startx = 216
+starty = 630
+priority = 1
+
+[[structure]]
 name = "sukiandfriends"
 file = "bonjwa/sukiandfriends.png"
 startx = 216
