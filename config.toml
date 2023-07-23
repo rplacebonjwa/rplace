@@ -137,6 +137,13 @@ startx = 117
 starty = 1957
 priority = 1
 
+[[structure]]
+name = "trill"
+file = "bonjwa/trill.png"
+startx = 224
+starty = 1952
+priority = 2
+
 # ende region süd süd west
 
 
