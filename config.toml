@@ -152,18 +152,18 @@ starty = 634
 priority = 10
 
 [[structure]]
+name = "gans"
+file = "bonjwa/Gans_gespiegelt.png"
+startx = 213
+starty = 631
+priority = 3
+
+[[structure]]
 name = "fuchs"
 file = "bonjwa/fuchs.png"
 startx = 208
 starty = 643
 priority = 1
-
-[[structure]]
-name = "gans"
-file = "bonjwa/Gans_gespiegelt.png"
-startx = 215
-starty = 633
-priority = 3
 
 [[structure]]
 name = "rb"
