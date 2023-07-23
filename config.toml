@@ -210,8 +210,8 @@ priority = 2
 [[structure]]
 name = "shushucat"
 file = "bonjwa/shushucat.png"
-startx = 276
-starty = 727
+startx = 277
+starty = 728
 priority = 2
 
 # endregion
