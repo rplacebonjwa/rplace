@@ -125,6 +125,13 @@ priority = 10
 
 [[structure]]
 name = "erweiterung_süd"
+file = "bonjwa/erweiterung_süd.png"
+startx = 114
+starty = 1952
+priority = 1
+
+[[structure]]
+name = "erweiterung_süd"
 file = "bonjwa/deprecated/Matteo_150Breit.png"
 startx = 117
 starty = 1957
