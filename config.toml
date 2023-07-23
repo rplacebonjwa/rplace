@@ -130,12 +130,12 @@ startx = 113
 starty = 1953
 priority = 1
 
-#[[structure]]
-#name = "dragonball"
-#file = "bonjwa/db2.png"
-#startx = 117
-#starty = 1957
-#priority = 1
+[[structure]]
+name = "dragonball"
+file = "bonjwa/db2.png"
+startx = 224
+starty = 1957
+priority = 1
 
 [[structure]]
 name = "trill"
