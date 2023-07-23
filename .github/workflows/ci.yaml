@@ -2,6 +2,8 @@ name: Generate and push
 
 on:
   workflow_dispatch:
+  schedule:
+  - cron: "10-59/10 * * * *"
   push:
     paths:
       - '**.py'
