@@ -121,6 +121,18 @@ priority = 10
 
 # endregion
 
+# region süd süd west
+
+[[structure]]
+name = "erweiterung_süd"
+file = "bonjwa/deprecated/Matteo_150Breit.png"
+startx = 117
+starty = 1957
+priority = 1
+
+# ende region süd süd west
+
+
 # region left side
 
 [[structure]]
