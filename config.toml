@@ -168,7 +168,7 @@ priority = 1
 [[structure]]
 name = "rb"
 file = "bonjwa/rbbean.png"
-startx = 222
+startx = 221
 starty = 633
 priority = 3
 
