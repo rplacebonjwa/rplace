@@ -127,7 +127,7 @@ priority = 10
 name = "erweiterung_süd"
 file = "bonjwa/erweiterung_süd.png"
 startx = 113
-starty = 1952
+starty = 1953
 priority = 1
 
 [[structure]]
@@ -136,6 +136,13 @@ file = "bonjwa/deprecated/Matteo_150Breit.png"
 startx = 117
 starty = 1957
 priority = 1
+
+#[[structure]]
+#name = "dragonball"
+#file = "bonjwa/db2.png"
+#startx = 117
+#starty = 1957
+#priority = 1
 
 [[structure]]
 name = "trill"
