@@ -169,7 +169,7 @@ priority = 2
 name = "pyramid2"
 file = "bonjwa/pyramidenhead.png"
 startx = 193
-starty = 634
+starty = 633
 priority = 3
 
 [[structure]]
