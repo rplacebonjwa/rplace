@@ -242,7 +242,12 @@ startx = 276
 starty = 728
 priority = 2
 
-
+[[structure]]
+name = "tomate"
+file = "bonjwa/tomate.png"
+startx = 320
+starty = 639
+priority = 2
 
 # endregion
 
