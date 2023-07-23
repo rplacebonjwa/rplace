@@ -210,7 +210,7 @@ priority = 2
 [[structure]]
 name = "shushucat"
 file = "bonjwa/shushucat.png"
-startx = 277
+startx = 276
 starty = 728
 priority = 2
 
