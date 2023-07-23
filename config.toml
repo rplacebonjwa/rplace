@@ -269,18 +269,4 @@ startx = 1357
 starty = 632
 priority = 1
 
-[[structure]]
-name = "staiylogo"
-file = "bonjwa/staiylogo.png"
-startx = 1307
-starty = 325
-priority = 1
-
-[[structure]]
-name = "staiydsklogo"
-file = "bonjwa/dsklogo.png"
-startx = 1355
-starty = 371
-priority = 1
-
 # endregion
