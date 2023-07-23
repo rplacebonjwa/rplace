@@ -207,6 +207,13 @@ startx = 319
 starty = 638
 priority = 2
 
+[[structure]]
+name = "shushucat"
+file = "bonjwa/shushucat.png"
+startx = 276
+starty = 727
+priority = 2
+
 # endregion
 
 # region misc
