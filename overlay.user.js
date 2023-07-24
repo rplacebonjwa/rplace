@@ -24,7 +24,22 @@ let overlayUrls = [
 
 let overlayContext = null;
 let overlayImage = null;
-let hideOverlay = false;
+
+function saveStorage(name, value) {
+  console.log("save", name, value);
+  name = "rPlaceBonjwa" + name;
+  localStorage.setItem(name, value);
+}
+
+function readStorage(name) {
+  name = "rPlaceBonjwa" + name;
+  let value = localStorage.getItem(name);
+  console.log("read", name, value);
+
+  return value;
+}
+
+let hideOverlay = readStorage("hideOverlay") === "true" ? true : false;
 
 function addOverlay() {
   if (window.top !== window.self) {
@@ -102,6 +117,7 @@ if (window.top !== window.self) {
   buttonElement.onclick = function () {
     hideOverlay = !hideOverlay;
     updateHideButtonIcon(hideOverlay);
+    saveStorage("hideOverlay", hideOverlay);
     restartInterval();
   };
 
