@@ -173,8 +173,8 @@ priority = 1
 [[structure]]
 name = "rb"
 file = "bonjwa/rbbean.png"
-startx = 721
-starty = 633
+startx = 720
+starty = 632
 priority = 3
 
 [[structure]]
