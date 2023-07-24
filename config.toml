@@ -293,4 +293,11 @@ startx = 1857
 starty = 632
 priority = 1
 
+[[structure]]
+name = "xwing"
+file = "bonjwa/xwing.png"
+startx = 2542
+starty = 289
+priority = 1
+
 # endregion
