@@ -21,6 +21,13 @@ ignore_colors = [
 # region right side
 
 [[structure]]
+name = "nordflagge_de"
+file = "bonjwa/Nordflagge_de.png"
+startx = 2679
+starty = 0
+priority = 1
+
+[[structure]]
 name = "flaguk"
 file = "bonjwa/uk_flag_pixelart.png"
 startx = 1166
