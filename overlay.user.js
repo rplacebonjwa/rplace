@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      19
+// @version      20
 // @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh, Chrimi8
 // @match        https://garlic-bread.reddit.com/*
@@ -60,4 +60,4 @@ function repaintOverlays() {
 }
 
 addOverlay();
-setInterval(repaintOverlays, 45 * 1000);
+setInterval(repaintOverlays, 90 * 1000);
