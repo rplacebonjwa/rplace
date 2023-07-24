@@ -37,7 +37,6 @@ function addOverlay() {
           .querySelector("garlic-bread-canvas")
           .shadowRoot.querySelector("div.container");
         overlayImage = document.createElement("canvas");
-        overlayImage.id = "overlayCanvas";
         overlayImage.height = canvasHeight * 3;
         overlayImage.width = canvasWidth * 3;
         overlayImage.style =
@@ -107,7 +106,6 @@ if (window.top !== window.self) {
   };
 
   let divElement = document.createElement("div");
-  divElement.class = "hide-button";
   divElement.style.display = "flex";
   divElement.style.width = "100%";
   divElement.style.height = "100%";
@@ -129,8 +127,8 @@ if (window.top !== window.self) {
 function restartInterval() {
   clearInterval(interval);
   repaintOverlays();
-  interval = setInterval(repaintOverlays, 45 * 1000);
+  interval = setInterval(repaintOverlays, 90 * 1000);
 }
 
 addOverlay();
-let interval = setInterval(repaintOverlays, 45 * 1000);
+let interval = setInterval(repaintOverlays, 90 * 1000);
