@@ -271,12 +271,11 @@ priority = 2
 # endregion
 
 # region misc
-
 [[structure]]
-name = "free-iran-flagge"
-file = "bonjwa/Free_Iran_Flagge.png"
-startx = 2055
-starty = 881
+name = "free-iran-flagge2"
+file = "bonjwa/iranneu.png"
+startx = 2054
+starty = 880
 priority = 1
 
 [[structure]]
