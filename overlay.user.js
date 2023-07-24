@@ -26,7 +26,6 @@ let overlayContext = null;
 let overlayImage = null;
 
 function saveStorage(name, value) {
-  console.log("save", name, value);
   name = "rPlaceBonjwa" + name;
   localStorage.setItem(name, value);
 }
@@ -34,7 +33,6 @@ function saveStorage(name, value) {
 function readStorage(name) {
   name = "rPlaceBonjwa" + name;
   let value = localStorage.getItem(name);
-  console.log("read", name, value);
 
   return value;
 }
