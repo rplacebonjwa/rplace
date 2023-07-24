@@ -38,7 +38,7 @@ function addOverlay() {
         overlayImage = document.createElement("canvas");
         overlayImage.height = canvasHeight * 3;
         overlayImage.width = canvasWidth * 3;
-        overlayImage.style = "position: absolute;left: 0px;top: 0px; width: "+canvasWidth+"px; height: "+canvasHeight+"px;";
+        overlayImage.style = "position: absolute;left: 0px;top: 0px; width: " + canvasWidth + "px; height: " + canvasHeight + "px;";
         canvasContainer.appendChild(overlayImage);
         overlayContext = overlayImage.getContext("2d");
 
@@ -50,7 +50,7 @@ function addOverlay() {
 }
 
 function repaintOverlays() {
-  overlayContext.clearRect(0, 0, canvasWidth*3, canvasHeight*3);
+  overlayContext.clearRect(0, 0, canvasWidth * 3, canvasHeight * 3);
   overlayUrls.forEach(url => {
     let img = new Image();
     img.onload = function () {
