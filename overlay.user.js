@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      25
+// @version      26
 // @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh, Chrimi8, Deimosu
 // @match        https://garlic-bread.reddit.com/*
@@ -10,7 +10,7 @@
 // @downloadURL  https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js
 // ==/UserScript==
 
-let canvasWidth = 2500;
+let canvasWidth = 3000;
 let canvasHeight = 2000;
 
 let overlayUrls = [

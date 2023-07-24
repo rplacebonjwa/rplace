@@ -3,7 +3,7 @@ import argparse
 import pathlib
 import json
 
-WIDTH = 2500
+WIDTH = 3000
 HEIGHT = 2000
 
 colors = {
