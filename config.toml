@@ -227,6 +227,13 @@ starty = 630
 priority = 2
 
 [[structure]]
+name = "jen"
+file = "bonjwa/jen.png"
+startx = 684
+starty = 634
+priority = 2
+
+[[structure]]
 name = "leaf"
 file = "bonjwa/acleaf.png"
 startx = 769
