@@ -229,8 +229,8 @@ priority = 2
 [[structure]]
 name = "jen"
 file = "bonjwa/jen.png"
-startx = 684
-starty = 634
+startx = 683
+starty = 633
 priority = 2
 
 [[structure]]
