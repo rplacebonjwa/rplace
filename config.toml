@@ -20,12 +20,12 @@ ignore_colors = [
 
 # region right side
 
-[[structure]]
-name = "nordflagge_de"
-file = "bonjwa/Nordflagge_de.png"
-startx = 2679
-starty = 0
-priority = 1
+#[[structure]]
+#name = "nordflagge_de"
+#file = "bonjwa/Nordflagge_de.png"
+#startx = 2679
+#starty = 0
+#priority = 1
 
 [[structure]]
 name = "flaguk"
@@ -292,19 +292,19 @@ startx = 737
 starty = 896
 priority = 1
 
-[[structure]]
-name = "pietsmiet"
-file = "bonjwa/pietsmiet.png"
-startx = 1857
-starty = 632
-priority = 1
+#[[structure]]
+#name = "pietsmiet"
+#file = "bonjwa/pietsmiet.png"
+#startx = 1857
+#starty = 632
+#priority = 1
 
-[[structure]]
-name = "dragon"
-file = "bonjwa/default_target.png"
-startx = 0
-starty = 0
-priority = 1
+#[[structure]]
+#name = "dragon"
+#file = "bonjwa/default_target.png"
+#startx = 0
+#starty = 0
+#priority = 1
 
 #[[structure]]
 #name = "xwing"
@@ -315,11 +315,11 @@ priority = 1
 
 # x-1500
 # y-1000
-[[structure]]
-name = "orignal_matteo"
-file = "bonjwa/orginal_matteo.png"
-startx = 2910
-starty = 87
-priority = 1
+#[[structure]]
+#name = "orignal_matteo"
+#file = "bonjwa/orginal_matteo.png"
+#startx = 2910
+#starty = 87
+#priority = 1
 
 # endregion
