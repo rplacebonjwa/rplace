@@ -12,7 +12,6 @@
 
 let canvasWidth = 2500;
 let canvasHeight = 2000;
-
 let overlayUrls = [
   // Gronkh overlay
   "https://raw.githubusercontent.com/FeLuckLP/rplace/main/overlay.png",
