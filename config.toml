@@ -299,4 +299,11 @@ startx = 2542
 starty = 289
 priority = 1
 
+#[[structure]]
+#name = "orignal_matteo"
+#file = "bonjwa/orginal_matteo.png"
+#startx = 1782
+#starty = 634
+#priority = 1
+
 # endregion
