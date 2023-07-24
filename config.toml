@@ -117,39 +117,11 @@ priority = 10
 # region süd süd west
 
 [[structure]]
-name = "dragonball"
-file = "bonjwa/db2.png"
-startx = 724
-starty = 1957
-priority = 1
-
-[[structure]]
-name = "trill"
-file = "bonjwa/trill_gedreht2.png"
+name = "region_sued_sued_west"
+file = "bonjwa/region_sued_sued_west.png"
 startx = 638
 starty = 1954
 priority = 2
-
-[[structure]]
-name = "pokeball"
-file = "bonjwa/poke52.png"
-startx = 641
-starty = 1964
-priority = 2
-
-[[structure]]
-name = "devVogel"
-file = "bonjwa/dev_vogel.png"
-startx = 712
-starty = 1963
-priority = 2
-
-[[structure]]
-name = "matteoballs"
-file = "bonjwa/matteoballs.png"
-startx = 617
-starty = 1953
-priority = 1
 
 # ende region süd süd west
 
