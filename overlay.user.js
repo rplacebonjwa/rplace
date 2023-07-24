@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      24
+// @version      25
 // @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh, Chrimi8, Deimosu
 // @match        https://garlic-bread.reddit.com/*
@@ -108,7 +108,7 @@ if (window.top !== window.self) {
   buttonElement.style.top = "calc(var(--sait) + 16px + 43px + 16px)";
   buttonElement.style.width = "43px";
   buttonElement.style.height = "43px";
-  buttonElement.style.backgroundColor = "hsl("+(parseFloat(GM_info.scriptMetaStr.split("@version")[1].split("\n")[0])*25)%360+",100%,50%)";
+  buttonElement.style.backgroundColor = "hsl("+(parseFloat(GM_info.scriptMetaStr.split("@version")[1].split("\n")[0])*33)%360+",100%,50%)";
   buttonElement.style.borderRadius = "0";
   buttonElement.style.border = "3px solid black";
   buttonElement.style.boxShadow = "var(--pixel-box-shadow)";
