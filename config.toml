@@ -336,7 +336,7 @@ priority = 2
 [[structure]]
 name = "froschImAuto"
 file = "bonjwa/frosch_auto.png"
-startx = 712
+startx = 711
 starty = 700
 priority = 2
 
