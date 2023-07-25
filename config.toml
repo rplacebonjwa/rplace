@@ -133,14 +133,21 @@ priority = 10
 [[structure]]
 name = "trill_upsidedown"
 file = "bonjwa/trill_upsidedown.png"
-startx = 640
+startx = 645
+starty = 1954
+priority = 2
+
+[[structure]]
+name = "frog_unten"
+file = "bonjwa/frosch_unten.png"
+startx = 628
 starty = 1954
 priority = 2
 
 [[structure]]
 name = "matteo_unten"
 file = "bonjwa/matteo_unten.png"
-startx = 684
+startx = 687
 starty = 1954
 priority = 2
 
