@@ -349,6 +349,20 @@ startx = 1005
 starty = 1977
 priority = 1
 
+[[structure]]
+name = "xwing"
+file = "bonjwa/xwing.png"
+startx = 2512
+starty = 289
+priority = 1
+
+[[structure]]
+name = "dragon"
+file = "bonjwa/default_target.png"
+startx = 0
+starty = 0
+priority = 1
+
 # x-1500
 # y-1000
 [[structure]]
