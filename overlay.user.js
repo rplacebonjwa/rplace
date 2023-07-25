@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      28
+// @version      29
 // @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh, Chrimi8, Deimosu
 // @match        https://garlic-bread.reddit.com/*
@@ -15,11 +15,11 @@ let canvasHeight = 2000;
 
 let overlayUrls = [
   // Gronkh overlay
-  "https://raw.githubusercontent.com/FeLuckLP/rplace/main/overlay.png",
+  //"https://raw.githubusercontent.com/FeLuckLP/rplace/main/overlay.png",
   // r/placeDE overlay
   "https://place.army/overlay_target.png",
   // eigenes Overlay
-  "https://raw.githubusercontent.com/rplacebonjwa/rplace/main/overlay.png",
+  //"https://raw.githubusercontent.com/rplacebonjwa/rplace/main/overlay.png",
 ];
 
 let overlayContext = null;
