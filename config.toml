@@ -277,11 +277,19 @@ starty = 630
 priority = 2
 
 [[structure]]
+name = "feedeline"
+file = "bonjwa/feedeline.png"
+startx = 772
+starty = 713
+priority = 2
+
+[[structure]]
 name = "jen"
 file = "bonjwa/jen.png"
 startx = 683
 starty = 633
 priority = 2
+
 
 [[structure]]
 name = "leaf"
@@ -307,7 +315,7 @@ priority = 2
 [[structure]]
 name = "shushucat"
 file = "bonjwa/shushucat.png"
-startx = 776
+startx = 770
 starty = 728
 priority = 2
 
