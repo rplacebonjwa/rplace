@@ -333,6 +333,13 @@ startx = 707
 starty = 716
 priority = 2
 
+[[structure]]
+name = "froschImAuto"
+file = "bonjwa/frosch_auto.png"
+startx = 712
+starty = 700
+priority = 2
+
 # endregion
 
 # region misc
