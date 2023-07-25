@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      27
+// @version      28
 // @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh, Chrimi8, Deimosu
 // @match        https://garlic-bread.reddit.com/*
@@ -24,6 +24,28 @@ let overlayUrls = [
 
 let overlayContext = null;
 let overlayImage = null;
+
+const mainContainer = document
+      .querySelector('garlic-bread-embed')
+      .shadowRoot.querySelector('.layout');
+
+function exportScreenshot(){
+      const canvas = mainContainer
+        .querySelector('garlic-bread-canvas')
+        .shadowRoot.querySelector('canvas');
+      if (!canvas) {
+        return;
+      }
+      const imgUrl = canvas
+        .toDataURL('image/png');
+
+      const downloadEl = document
+        .createElement('a');
+      downloadEl.href = imgUrl;
+      downloadEl.download = `place-${Date.now()}.png`;
+      downloadEl.click();
+      downloadEl.remove();
+    }
 
 function saveStorage(name, value) {
   name = "rPlaceBonjwa" + name;
@@ -102,22 +124,34 @@ function updateHideButtonIcon(hide) {
 
 if (window.top !== window.self) {
   const container = document.querySelector("garlic-bread-embed");
-  let buttonElement = document.createElement("button");
-  buttonElement.style.position = "fixed";
-  buttonElement.style.left = "calc(var(--sail) + 16px)";
-  buttonElement.style.top = "calc(var(--sait) + 16px + 43px + 16px)";
-  buttonElement.style.width = "43px";
-  buttonElement.style.height = "43px";
-  buttonElement.style.backgroundColor = "hsl("+(parseFloat(GM_info.scriptMetaStr.split("@version")[1].split("\n")[0])*33)%360+",100%,"+((parseFloat(GM_info.scriptMetaStr.split("@version")[1].split("\n")[0])%2)*30+30)+"%)";
-  buttonElement.style.borderRadius = "0";
-  buttonElement.style.border = "3px solid black";
-  buttonElement.style.boxShadow = "var(--pixel-box-shadow)";
-  buttonElement.onclick = function () {
+  let showHideButton = document.createElement("button");
+  showHideButton.style.position = "fixed";
+  showHideButton.style.left = "calc(var(--sail) + 16px)";
+  showHideButton.style.top = "calc(var(--sait) + 10px + 43px + 10px)";
+  showHideButton.style.width = "43px";
+  showHideButton.style.height = "43px";
+  showHideButton.style.backgroundColor = "hsl("+(parseFloat(GM_info.scriptMetaStr.split("@version")[1].split("\n")[0])*33)%360+",100%,"+((parseFloat(GM_info.scriptMetaStr.split("@version")[1].split("\n")[0])%2)*30+30)+"%)";
+  showHideButton.style.borderRadius = "0";
+  showHideButton.style.border = "3px solid black";
+  showHideButton.style.boxShadow = "var(--pixel-box-shadow)";
+  showHideButton.onclick = function () {
     hideOverlay = !hideOverlay;
     updateHideButtonIcon(hideOverlay);
     saveStorage("hideOverlay", hideOverlay);
     restartInterval();
   };
+
+  let screenshotButton = document.createElement("button");
+  screenshotButton.style.position = "fixed";
+  screenshotButton.style.left = "calc(var(--sail) + 16px)";
+  screenshotButton.style.top = "calc(var(--sait) + 10px + 43px + 10px + 43px + 10px)";
+  screenshotButton.style.width = "43px";
+  screenshotButton.style.height = "43px";
+  screenshotButton.style.backgroundColor = "white";
+  screenshotButton.style.borderRadius = "0";
+  screenshotButton.style.border = "3px solid black";
+  screenshotButton.style.boxShadow = "var(--pixel-box-shadow)";
+  screenshotButton.onclick = function () {exportScreenshot();};
 
   let divElement = document.createElement("div");
   divElement.style.display = "flex";
@@ -126,6 +160,14 @@ if (window.top !== window.self) {
   divElement.style.justifyContent = "center";
   divElement.style.alignItems = "center";
 
+  let divElement2 = document.createElement("div");
+  divElement2.style.display = "flex";
+  divElement2.style.width = "100%";
+  divElement2.style.height = "100%";
+  divElement2.style.justifyContent = "center";
+  divElement2.style.alignItems = "center";
+  divElement2.innerHTML=` <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(2 3)"><path d="M20 16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3l2-3h6l2 3h3a2 2 0 0 1 2 2v11z"/><circle cx="10" cy="10" r="4"/></g></svg> `;
+
   let imgDivElement = document.createElement("div");
   imgDivElement.style.width = "24px";
   imgDivElement.style.height = "24px";
@@ -133,8 +175,10 @@ if (window.top !== window.self) {
   imgDivElement.id = "hideIcon";
 
   divElement.appendChild(imgDivElement);
-  buttonElement.appendChild(divElement);
-  container.appendChild(buttonElement);
+  showHideButton.appendChild(divElement);
+  screenshotButton.appendChild(divElement2);
+  container.appendChild(showHideButton);
+  container.appendChild(screenshotButton);
   updateHideButtonIcon(hideOverlay);
 }
 
