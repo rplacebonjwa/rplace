@@ -114,7 +114,7 @@ priority = 2
 
 [[structure]]
 name = "touri"
-file = "bonjwa/touri.png"
+file = "bonjwa/touri_neu.png"
 startx = 1310
 starty = 654
 priority = 10
@@ -340,6 +340,13 @@ name = "pietsmiet"
 file = "bonjwa/pietsmiet.png"
 startx = 1857
 starty = 632
+priority = 1
+
+[[structure]]
+name = "iconArmenien"
+file = "bonjwa/icon_armenien.png"
+startx = 1005
+starty = 1977
 priority = 1
 
 # x-1500
