@@ -329,11 +329,11 @@ priority = 1
 
 # x-1500
 # y-1000
-#[[structure]]
-#name = "orignal_matteo"
-#file = "bonjwa/orginal_matteo.png"
-#startx = 2910
-#starty = 87
-#priority = 1
+[[structure]]
+name = "orignal_matteo"
+file = "bonjwa/orginal_matteo.png"
+startx = 2910
+starty = 87
+priority = 1
 
 # endregion
