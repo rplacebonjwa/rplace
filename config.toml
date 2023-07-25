@@ -123,11 +123,39 @@ priority = 10
 
 # region süd süd west
 
+#[[structure]]
+#name = "region_sued_sued_west"
+#file = "bonjwa/region_sued_sued_west.png"
+#startx = 638
+#starty = 1954
+#priority = 2
+
 [[structure]]
-name = "region_sued_sued_west"
-file = "bonjwa/region_sued_sued_west.png"
-startx = 638
+name = "trill_upsidedown"
+file = "bonjwa/trill_upsidedown.png"
+startx = 640
 starty = 1954
+priority = 2
+
+[[structure]]
+name = "matteo_unten"
+file = "bonjwa/matteo_unten.png"
+startx = 684
+starty = 1954
+priority = 2
+
+[[structure]]
+name = "dragonballs"
+file = "bonjwa/dragonballs.png"
+startx = 713
+starty = 1955
+priority = 2
+
+[[structure]]
+name = "devbird"
+file = "bonjwa/devbird.png"
+startx = 712
+starty = 1963
 priority = 2
 
 # ende region süd süd west
