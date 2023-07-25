@@ -292,26 +292,12 @@ startx = 737
 starty = 896
 priority = 1
 
-#[[structure]]
-#name = "pietsmiet"
-#file = "bonjwa/pietsmiet.png"
-#startx = 1857
-#starty = 632
-#priority = 1
-
-#[[structure]]
-#name = "dragon"
-#file = "bonjwa/default_target.png"
-#startx = 0
-#starty = 0
-#priority = 1
-
-#[[structure]]
-#name = "xwing"
-#file = "bonjwa/xwing.png"
-#startx = 2542
-#starty = 289
-#priority = 1
+[[structure]]
+name = "pietsmiet"
+file = "bonjwa/pietsmiet.png"
+startx = 1857
+starty = 632
+priority = 1
 
 # x-1500
 # y-1000
