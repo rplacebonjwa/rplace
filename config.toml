@@ -326,6 +326,13 @@ startx = 820
 starty = 635
 priority = 2
 
+[[structure]]
+name = "einelotta"
+file = "bonjwa/einelotta.png"
+startx = 707
+starty = 716
+priority = 2
+
 # endregion
 
 # region misc
