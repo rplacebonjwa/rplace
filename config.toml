@@ -114,7 +114,7 @@ priority = 2
 
 [[structure]]
 name = "touri"
-file = "bonjwa/touri.png"
+file = "bonjwa/touri_neu.png"
 startx = 1310
 starty = 654
 priority = 10
