@@ -131,6 +131,14 @@ priority = 10
 #priority = 2
 
 [[structure]]
+name = "unten_bg"
+file = "bonjwa/gruen_ssw.png"
+startx = 633
+starty = 1954
+priority = 2
+
+
+[[structure]]
 name = "trill_upsidedown"
 file = "bonjwa/trill_upsidedown.png"
 startx = 645
