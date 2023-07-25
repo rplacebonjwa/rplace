@@ -242,13 +242,6 @@ starty = 633
 priority = 3
 
 [[structure]]
-name = "items"
-file = "bonjwa/items.png"
-startx = 715
-starty = 687
-priority = 3
-
-[[structure]]
 name = "sukiandfriends-blumen"
 file = "bonjwa/sukiandfiends_blumenDeko.png"
 startx = 716
@@ -336,9 +329,16 @@ priority = 2
 [[structure]]
 name = "froschImAuto"
 file = "bonjwa/frosch_auto.png"
-startx = 711
+startx = 710
 starty = 700
 priority = 2
+
+[[structure]]
+name = "items"
+file = "bonjwa/items.png"
+startx = 713
+starty = 687
+priority = 3
 
 [[structure]]
 name = "aciixxTrapper"
