@@ -340,6 +340,13 @@ startx = 711
 starty = 700
 priority = 2
 
+[[structure]]
+name = "aciixxTrapper"
+file = "bonjwa/trapper.png"
+startx = 727
+starty = 711
+priority = 2
+
 # endregion
 
 # region misc
