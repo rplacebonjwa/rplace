@@ -334,6 +334,13 @@ startx = 1857
 starty = 632
 priority = 1
 
+[[structure]]
+name = "iconArmenien"
+file = "bonjwa/icon_armenien.png"
+startx = 1005
+starty = 1977
+priority = 1
+
 # x-1500
 # y-1000
 [[structure]]
