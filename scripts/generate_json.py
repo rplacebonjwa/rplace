@@ -100,9 +100,37 @@ if __name__ == "__main__":
     parser.add_argument("output", nargs="?", default="pixel.json")
     args = parser.parse_args()
 
+    # just for easy merge, this will fix the config.toml (can be removed after everyone uses it)
+    with open(args.config, "r") as i:
+        with open("config.new.toml", "a") as o:
+            Lines = i.readlines()
+            change = True # just once
+            for line in Lines:
+                if (not change and
+                    line.startswith("# negative of pixel")):
+                    change = False
+                if (change and
+                    line.startswith("[priorities]")):
+                    o.write("# negative of pixel in left top corner\n")
+                    o.write('[offsets]\n')
+                    o.write('"x" = 1000\n')
+                    o.write('"y" = 1000\n')
+                    o.write('\n')
+                nameValue = line.split('=')
+                if (change and
+                    len(nameValue) == 2 and 
+                    (nameValue[0].strip() == "startx" or nameValue[0].strip() == "starty")):
+                    line = nameValue[0] + "= " + str(int(nameValue[1]) - 1000) + "\n"
+                o.write(line)
+    os.remove("config.toml") 
+    os.rename('config.new.toml', 'config.toml')
+
     config = toml.load(args.config)
     ignore_colors = list(map(tuple, config["ignore_colors"]))
     versions = config["versions"]
+    offsets = config["offsets"]
+    offset_x = offsets["x"]
+    offset_y = offsets["y"]
 
     data = {
         "versions": versions,
@@ -117,7 +145,7 @@ if __name__ == "__main__":
         priority_file = struct.get("priority_file", None)
         name = struct["name"]
         print(f"Adding file {file} for structure {name}")
-        data["structures"][name] = create_structure(file, priority_file, struct["startx"], struct["starty"], struct["priority"], ignore_colors, used_pixels)
+        data["structures"][name] = create_structure(file, priority_file, struct["startx"] + offset_x, struct["starty"] + offset_y, struct["priority"], ignore_colors, used_pixels)
     
     with open(args.output, "w") as f:
         f.write(json.dumps(data, separators=(',', ':')))
